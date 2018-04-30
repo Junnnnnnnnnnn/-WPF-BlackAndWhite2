@@ -1,0 +1,54 @@
+﻿<Window x:Class="WPFBlackAndWhite_ver2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFBlackAndWhite_ver2"
+        mc:Ignorable="d"
+        Title="BlackAndWhite2" 
+        Height="600" Width="1200"
+        MinHeight="600" MinWidth="1200" MaxHeight="600" MaxWidth="1200"
+        Background="Beige">
+    <Canvas>
+        <StackPanel Canvas.Left="50" Canvas.Top="50" >
+            <TextBlock Height="70" Width="100" Text="A" FontSize="50" TextAlignment="Center" Background="Wheat"/>
+            <Button x:Name="BtnShowAteamHP" Height="30" Content="Show HP" Click="BtnShowAteamHP_Click"/>
+        </StackPanel>
+        <StackPanel Canvas.Right="50" Canvas.Top="50" >
+            <TextBlock Height="70" Width="100" Text="B" FontSize="50" TextAlignment="Center" Background="Wheat"/>
+            <Button x:Name="BtnShowBteamHP" Height="30" Content="Show HP" Click="BtnShowBteamHP_Click"/>
+        </StackPanel>
+        <StackPanel Height="300" Canvas.Left="25" Canvas.Top="200" Width="150">
+            <TextBlock x:Name="Ascore1" Height="60" Background="Bisque" TextAlignment="Center" FontSize="30" Text="{Binding HpScreen1}"></TextBlock>
+            <TextBlock x:Name="Ascore2" Height="60" Background="Azure" TextAlignment="Center" FontSize="30" Text="{Binding HpScreen2}"></TextBlock>
+            <TextBlock x:Name="Ascore3" Height="60" Background="Bisque" TextAlignment="Center" FontSize="30" Text="{Binding HpScreen3}"></TextBlock>
+            <TextBlock x:Name="Ascore4" Height="60" Background="Azure" TextAlignment="Center" FontSize="30" Text="{Binding HpScreen4}"></TextBlock>
+            <TextBlock x:Name="Ascore5" Height="60" Background="Bisque" TextAlignment="Center" FontSize="30" Text="{Binding HpScreen5}"></TextBlock>
+        </StackPanel>
+        <StackPanel Height="300" Canvas.Right="25" Canvas.Top="200" Width="150">
+            <TextBlock x:Name="Bscore1" Height="60" Background="Bisque" TextAlignment="Center" FontSize="30" Text="{Binding HpScreen1}"></TextBlock>
+            <TextBlock x:Name="Bscore2" Height="60" Background="Azure" TextAlignment="Center" FontSize="30" Text="{Binding HpScreen2}"></TextBlock>
+            <TextBlock x:Name="Bscore3" Height="60" Background="Bisque" TextAlignment="Center" FontSize="30" Text="{Binding HpScreen3}"></TextBlock>
+            <TextBlock x:Name="Bscore4" Height="60" Background="Azure" TextAlignment="Center" FontSize="30" Text="{Binding HpScreen4}"></TextBlock>
+            <TextBlock x:Name="Bscore5" Height="60" Background="Bisque" TextAlignment="Center" FontSize="30" Text="{Binding HpScreen5}"></TextBlock>
+        </StackPanel>
+        <StackPanel Height="100" Canvas.Left="200" Canvas.Top="300" Width="100">
+            <TextBox x:Name="TextBoxAteamATK" Height="50"/>
+            <Button x:Name="BtnAteamATK" Height="50" Content="Attack" Click="BtnAteamATK_Click"/>
+        </StackPanel>
+
+        <StackPanel Height="100" Canvas.Right="200" Canvas.Top="300" Width="100">
+            <TextBox x:Name="TextBoxBteamATK" Height="50"/>
+            <Button x:Name="BtnBteamATK" Height="50" Content="Attack" Click="BtnBteamATK_Click"/>
+        </StackPanel>
+        <StackPanel Background="FloralWhite" Height="300" Width="400"  Canvas.Top="50" Canvas.Left="400">
+            <TextBlock x:Name="RoundScreen" Height="60" Text="-Round-" TextAlignment="Center" FontSize="30"/>
+            <TextBlock x:Name="ScoreScreen" Height="60" Text="Score" TextAlignment="Center" FontSize="30"/>
+            <TextBlock x:Name="BlackOrWhiteScreen" Height="60" Text="BlackAndWhite" TextAlignment="Center" FontSize="30"/>
+            <TextBlock x:Name="TurnScreen" Height="60" Text="Turn" TextAlignment="Center" FontSize="30"/>
+            <Button x:Name="BtnResult" Content="Result" Height="60" Width="200" FontSize="20" Click="BtnResult_Click"/>
+        </StackPanel>
+        <TextBlock x:Name="UpdateScreen" Width="500" Height="60" Canvas.Left="350" TextAlignment="Center" Text="a" Canvas.Top="370" Background="LemonChiffon"/>
+        <Button x:Name="BtnNext" Content="Next Round" Canvas.Left="550" Canvas.Top="470" Width="100" Height="50" Click="BtnNext_Click"/>
+    </Canvas>
+</Window>

@@ -1,0 +1,15 @@
+C:\Project\WPFBlackAndWhite_ver2\-WPF-BlackAndWhite2\WPFBlackAndWhite_ver2\bin\Debug\WPFBlackAndWhite_ver2.exe.config
+C:\Project\WPFBlackAndWhite_ver2\-WPF-BlackAndWhite2\WPFBlackAndWhite_ver2\bin\Debug\WPFBlackAndWhite_ver2.exe
+C:\Project\WPFBlackAndWhite_ver2\-WPF-BlackAndWhite2\WPFBlackAndWhite_ver2\bin\Debug\WPFBlackAndWhite_ver2.pdb
+C:\Project\WPFBlackAndWhite_ver2\-WPF-BlackAndWhite2\WPFBlackAndWhite_ver2\obj\Debug\WPFBlackAndWhite_ver2.csprojResolveAssemblyReference.cache
+C:\Project\WPFBlackAndWhite_ver2\-WPF-BlackAndWhite2\WPFBlackAndWhite_ver2\obj\Debug\MainWindow.g.cs
+C:\Project\WPFBlackAndWhite_ver2\-WPF-BlackAndWhite2\WPFBlackAndWhite_ver2\obj\Debug\App.g.cs
+C:\Project\WPFBlackAndWhite_ver2\-WPF-BlackAndWhite2\WPFBlackAndWhite_ver2\obj\Debug\WPFBlackAndWhite_ver2_MarkupCompile.cache
+C:\Project\WPFBlackAndWhite_ver2\-WPF-BlackAndWhite2\WPFBlackAndWhite_ver2\obj\Debug\WPFBlackAndWhite_ver2_MarkupCompile.lref
+C:\Project\WPFBlackAndWhite_ver2\-WPF-BlackAndWhite2\WPFBlackAndWhite_ver2\obj\Debug\MainWindow.baml
+C:\Project\WPFBlackAndWhite_ver2\-WPF-BlackAndWhite2\WPFBlackAndWhite_ver2\obj\Debug\WPFBlackAndWhite_ver2.g.resources
+C:\Project\WPFBlackAndWhite_ver2\-WPF-BlackAndWhite2\WPFBlackAndWhite_ver2\obj\Debug\WPFBlackAndWhite_ver2.Properties.Resources.resources
+C:\Project\WPFBlackAndWhite_ver2\-WPF-BlackAndWhite2\WPFBlackAndWhite_ver2\obj\Debug\WPFBlackAndWhite_ver2.csproj.GenerateResource.cache
+C:\Project\WPFBlackAndWhite_ver2\-WPF-BlackAndWhite2\WPFBlackAndWhite_ver2\obj\Debug\WPFBlackAndWhite_ver2.csproj.CoreCompileInputs.cache
+C:\Project\WPFBlackAndWhite_ver2\-WPF-BlackAndWhite2\WPFBlackAndWhite_ver2\obj\Debug\WPFBlackAndWhite_ver2.exe
+C:\Project\WPFBlackAndWhite_ver2\-WPF-BlackAndWhite2\WPFBlackAndWhite_ver2\obj\Debug\WPFBlackAndWhite_ver2.pdb
